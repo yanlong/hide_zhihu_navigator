@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "fake stackoverflow",
-  "description": "Pretend you are visiting Stackoverflow.com ",
+  "name": "Hide Zhihu Navigator",
+  "description": "Hide Zhihu Navigator",
   "version": "1.0",
 
   "browser_action": {
@@ -13,9 +13,5 @@
     "matches": ["https://*.zhihu.com/*"],
     "css": ["stackoverflow.css"],
     "js": ["jquery.js", "main.js"]
-  }],
-  "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+  }]
 }
